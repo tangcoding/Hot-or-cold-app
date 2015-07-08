@@ -20,7 +20,6 @@ $(document).ready(function(){
 
     /*--- Generate a random number form 1 to 100 ---*/
     target = randomGenerator(1, 100);
-    alert('target:' +target);
 
 });
 
@@ -66,11 +65,9 @@ function Game(){
         message = absolute_msg(diff);
       }
       else if( count > 1){
-        alert('diff:'+diff+"last_diff:"+last_diff);
 
         message = comparison_msg(last_diff, diff);
 
-        alert('msg:'+message);
 
       }
 
